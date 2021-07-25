@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-        - pip install flask==1.1.2 
+        - pip install -r requirements.txt 
   build:
     commands:
       - echo Build started on `date`
